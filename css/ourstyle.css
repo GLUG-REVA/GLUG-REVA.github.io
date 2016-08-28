@@ -9,3 +9,12 @@
 .hexa2 {
 	background-color: #8585e0;
 }
+
+.navbar-fixed {
+  position: fixed;
+}
+
+#index-banner {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
