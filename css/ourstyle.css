@@ -3,11 +3,17 @@
 }
 
 .hexa1 {
+	background-image: url("https://ebin.files.wordpress.com/2012/03/ipad-hires-carbon-fiber-wp22.png");
 	background-color: #8c1aff;
 }
 
 .hexa2 {
 	background-color: #8585e0;
+}
+
+.hexa3 {
+	background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/05/08-Paper.jpg");
+	background-size: cover;
 }
 
 .mob-nav {
