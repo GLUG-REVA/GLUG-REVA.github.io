@@ -8,7 +8,9 @@
 }
 
 .hexa2 {
-	background-color: #8585e0;
+	text-align: center;
+  	background-color: #37474f;
+  	color: white;
 }
 
 .hexa3 {
@@ -29,6 +31,6 @@ h4 {
 }
 .image
 {
-    height: 200px;
+    height: 250px;
     width: 200px;
 }
