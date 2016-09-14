@@ -29,8 +29,17 @@
 h4 {
     color: azure
 }
+
 .image
 {
     height: 250px;
     width: 200px;
+}
+
+.mdl-mega-footer--right-section{
+    position: relative;
+    top: 5px;
+    padding-left: 310px;
+    color: white;
+
 }
