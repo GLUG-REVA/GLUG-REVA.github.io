@@ -43,3 +43,7 @@ h4 {
     color: white;
 
 }
+
+.hov:hover {
+	background-color: #555;
+}
