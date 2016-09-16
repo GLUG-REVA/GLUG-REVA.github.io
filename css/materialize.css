@@ -7564,7 +7564,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .slider .slides {
-  background-color: #9e9e9e;
+  background-color: #455A64;
   margin: 0;
   height: 400px;
 }

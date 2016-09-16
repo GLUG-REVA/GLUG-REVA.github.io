@@ -70,35 +70,44 @@
     <div class="section">
 
       <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
+      <div class="slider">
+        <ul class="slides">
+        <li>
+          <img src="#"> <!-- random image -->
+          <div class="caption center-align">
+            <div class="icon-block">
             <h2 class="center white-text"><i class="material-icons">flash_on</i></h2>
             <h5 class="center">Why GLUG?</h5>
 
             <p class="light">We campaign for the freedom of users, because everyone deserves them. The users (both individually and collectively) control the program and what it does for them. When users don't control the program, we call it a “nonfree” program. The nonfree program controls the users, and the developer controls the program; this makes the program an instrument of unjust power.</p>
           </div>
         </div>
-
-        <div class="col s12 m4">
+        </li>
+        <li>
+        <img src="#"> <!-- random image -->
+        <div class="caption left-align">
           <div class="icon-block">
             <h2 class="center white-text"><i class="material-icons">group</i></h2>
             <h5 class="center">What is Open Source?</h5>
 
-            <p class="light">Open-source software (OSS) is computer software with its source code made available with a license in which the copyright holder provides the rights to study, download, and distribute the software to anyone and for any purpose. Open-source software may be developed in a collaborative public manner.</p>
+            <p class="center light">Open-source software (OSS) is computer software with its source code made available with a license in which the copyright holder provides the rights to study, download, and distribute the software to anyone and for any purpose. Open-source software may be developed in a collaborative public manner.</p>
           </div>
         </div>
-
-        <div class="col s12 m4">
+        </li>
+        <li>
+        <img src="#"> <!-- random image -->
+        <div class="caption right-align">
           <div class="icon-block">
             <h2 class="center white-text"><i class="material-icons">settings</i></h2>
             <h5 class="center">What can you learn?</h5>
 
-            <p class="light">GLUG-REVA aims at organizing sessions/workshops/projects based on free and open-source software to provide a platform to learn, meet like-minded students, and develop skills. The goal is to expose students to the current technological realm..</p>
+            <p class="center light">GLUG-REVA aims at organizing sessions/workshops/projects based on free and open-source software to provide a platform to learn, meet like-minded students, and develop skills. The goal is to expose students to the current technological realm..</p>
           </div>
         </div>
+        </li>
+       </ul>
       </div>
-
+      </div>
     </div>
   </div>
  </div>
@@ -188,6 +197,9 @@
       $('.carousel').carousel();
     });
     $('.carousel.carousel-slider').carousel({full_width: true});
+    $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+    });
   </script>
   <!-- Start Visual Website Optimizer Asynchronous Code -->
   <script type='text/javascript'>
