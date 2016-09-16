@@ -80,5 +80,12 @@ h1.uppercase
     font-family: 'Baloo Tamma',serif;
 }
 
+@media (max-width: 640px) 
+{
+    #top
+    {
+        display: none;
+    }
+}
 
 
