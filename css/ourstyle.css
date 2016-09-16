@@ -82,7 +82,7 @@ h1.uppercase
 
 @media (max-width: 640px) 
 {
-    #top
+    #topx
     {
         display: none;
     }
