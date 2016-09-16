@@ -77,7 +77,7 @@ h1.uppercase
     text-transform: uppercase;
 }
 .fonts{
-    font-family: 'Baloo Tamma',serif;
+    font-family: 'Monoton', cursive;
 }
 
 @media (max-width: 640px) 
