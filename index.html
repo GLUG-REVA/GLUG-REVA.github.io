@@ -102,16 +102,15 @@
     </div>
   </div>
  </div>
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-        </div>
+    <div class="carousel-background">
+      <div class="carousel carousal-slider">
+        <a class="carousel-item" href="#one!"><img src="http://www.clipartbest.com/cliparts/ncB/XXX/ncBXXXq7i.jpeg"></a>
+        <a class="carousel-item" href="#two!"><img src="http://www.clipartbest.com/cliparts/Kij/eee/KijeeejeT.jpeg"></a>
+        <a class="carousel-item" href="#three!"><img src="http://www.clipartbest.com/cliparts/bTy/EEE/bTyEEEXec.png"></a>
+        <a class="carousel-item" href="#four!"><img src="http://www.clipartbest.com/cliparts/aTq/eee/aTqeeeRXc.png"></a>
+        <a class="carousel-item" href="#five!"><img src="http://www.clipartbest.com/cliparts/niB/XXX/niBXXXzKT.png"></a>
       </div>
-    </div>
-    <div class="parallax"><img class="responsive-img" src="img/background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
+    </div>  
   <div class="hexa2">
    <div class="container">
     <div class="section">
@@ -184,6 +183,12 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+    $('.carousel.carousel-slider').carousel({full_width: true});
+  </script>
   <!-- Start Visual Website Optimizer Asynchronous Code -->
   <script type='text/javascript'>
   var _vwo_code=(function(){
