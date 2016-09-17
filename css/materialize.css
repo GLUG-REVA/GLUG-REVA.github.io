@@ -7540,7 +7540,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .slider {
   position: relative;
-  height: 1500px;
+  height: 400px;
   width: 100%;
 }
 
@@ -7566,18 +7566,17 @@ input[type=range]:focus::-ms-fill-upper {
 .slider .slides {
   background-color: #455A64;
   margin: 0;
-  height: 1500px;
-    
+  height: 400px;
 }
 
 .slider .slides li {
   opacity: 0;
   position: absolute;
-  top: -2;
+  top: 0;
   left: 0;
   z-index: 1;
   width: 100%;
-  height: 500 px;
+  height: inherit;
   overflow: hidden;
 }
 
@@ -7591,7 +7590,7 @@ input[type=range]:focus::-ms-fill-upper {
 .slider .slides li .caption {
   color: #fff;
   position: absolute;
-  top: 0;
+  top: 15%;
   left: 15%;
   width: 70%;
   opacity: 0;
