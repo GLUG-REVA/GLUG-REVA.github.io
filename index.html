@@ -48,9 +48,9 @@
       <div class="container">
         <br><br>
         <div class="col-xs-12 col-sm-8">
-        <h1 class="header center glug text-lighten-2 ">&#35include<wbr>&#60GLUG_REVA&#62</h1>
+        <h1 id="typing_text" class="header center glug text-lighten-2 ">&#35include<wbr>&#60GLUG_REVA&#62</h1>
         <div class="row center">
-          <h5 class="header col s12 light">GLUGs - GNU/Linux user groups are the means of spreading the idea of free software and philosophy of free software</h5>
+          <h5 id="typing_text2" class="header col s12 light">GLUGs - GNU/Linux user groups are the means of spreading the idea of free software and philosophy of free software</h5>
         </div>
         <div class="row center">
           <a href="https://docs.google.com/forms/d/e/1FAIpQLScBGUySC6YKIGxkUN3OGWV0ML_LUUxccV_OKrlQUUjvcZVtTQ/viewform" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Register Now!</a>
@@ -227,6 +227,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/typed.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
          $("#mycarousel").carousel( { interval: 1000 } );
@@ -240,6 +241,23 @@
     $(document).ready(function(){
       $('.slider').slider({full_width: true});
     });
+  </script>
+  <script type="text/javascript">
+  $(function(){
+      $("#typing_text").typed({
+        strings: ["Welcome to<br> <strong>GLUG-REVA<strong>"],
+        typeSpeed: 200,
+        backDelay: 500,
+        loop: true,
+        loopCount: false,
+      });
+  });
+    $(function(){
+      $("#typing_text2").typed({
+        strings: ["GLUGs - GNU/Linux user groups are the means of spreading the idea of free software and philosophy of free software."],
+        typeSpeed: 30
+      });
+  });
   </script>
   <!-- Start Visual Website Optimizer Asynchronous Code -->
   <script type='text/javascript'>
