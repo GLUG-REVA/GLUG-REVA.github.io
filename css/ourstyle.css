@@ -92,5 +92,18 @@ h1.uppercase
   background-color: #37474f;
 }
 
+@media (max-width: 640px) 
+{
+    #web
+    {
+        display: none;
+    }
+}
 
-
+@media (min-width: 640px) 
+{
+    #mob
+    {
+        display: none;
+    }
+}
