@@ -7540,7 +7540,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .slider {
   position: relative;
-  height: 400px;
+  height: auto;
   width: 100%;
 }
 
@@ -7566,7 +7566,7 @@ input[type=range]:focus::-ms-fill-upper {
 .slider .slides {
   background-color: #455A64;
   margin: 0;
-  height: 400px;
+  height: auto;
 }
 
 .slider .slides li {
@@ -7578,6 +7578,7 @@ input[type=range]:focus::-ms-fill-upper {
   width: 100%;
   height: inherit;
   overflow: hidden;
+   
 }
 
 .slider .slides li img {
@@ -7590,7 +7591,7 @@ input[type=range]:focus::-ms-fill-upper {
 .slider .slides li .caption {
   color: #fff;
   position: absolute;
-  top: 15%;
+  top: 0;
   left: 15%;
   width: 70%;
   opacity: 0;
