@@ -80,14 +80,6 @@ h1.uppercase
     font-family: 'Monoton', cursive;
 }
 
-@media (max-width: 640px) 
-{
-    #topx
-    {
-        display: none;
-    }
-}
-
 .carousel-background {
   background-color: #37474f;
 }
